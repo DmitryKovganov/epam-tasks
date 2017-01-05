@@ -9,48 +9,54 @@ body {
 	height: 300px;
 	width: 300px;
 	margin: 20px;
-	border-radius: 150px;
-	background: #4a8db8;
+	position: relative;
 }
 
-#container {
-	height: 800px;
+.social-image {
+	width: 100%;
+	height: 100%;
+	border-radius: calc(100vh / 2);
+	border: 5px solid #4a8db8;
+}
+
+.container {
+	height: 1500px;
 	width: 50%;
 	position: absolute;
 	top: 200px;
 	left: 25%;
 }
 
-#container div {
+.container div {
 	height: 100%;
 	width: 100%;
 	position: absolute;
 }
 
-#container div:nth-child(1) {
+.container div:nth-child(1) {
 	background: #0487b3;
 }
 
-#container div:nth-child(2) {
+.container div:nth-child(2) {
 	background: #3a4c8a;
 	right: 10px;
 	bottom: 10px;
 }
 
-#container div:nth-child(3) {
+.container div:nth-child(3) {
 	background: #d8454b;
 	right: 20px;
 	bottom: 20px;
 }
 
-#info {
+.info {
 	height: 130px;
 	width: 25%;
 	padding: 35px;
 	position: fixed;
 	right: 0px;
 	bottom: 50px;
-	background: rgba(93,93,93,0.83);
+	background: rgba(93, 93, 93, 0.83);
 }
 
 .info-logo {
