@@ -8,25 +8,41 @@ body {
 #social {
 	height: 300px;
 	width: 300px;
-	border-radius: 150px;
 	margin: 20px;
-	background: #3586C5;
+	border-radius: 150px;
+	background: #4a8db8;
 }
 
 #container {
 	height: 800px;
 	width: 50%;
-	background: tomato;
 	position: absolute;
 	top: 200px;
 	left: 25%;
+	background: #d8454b;
 }
 
 #info {
-	height: 250px;
-	width: 33%;
+	height: 130px;
+	width: 25%;
+	padding: 35px;
 	position: fixed;
 	right: 0px;
 	bottom: 50px;
-	background: #D5D158;
+	background: rgba(93,93,93,0.7);
+}
+
+.info-logo {
+	width: 130px;
+	height: 130px;
+	display: inline-block;
+	background: #f7e360;
+}
+
+.info-contact {
+	display: inline-block;
+	margin-left: 20px;
+	vertical-align: top;
+	color: white;
+	font-size: 20px;
 }
