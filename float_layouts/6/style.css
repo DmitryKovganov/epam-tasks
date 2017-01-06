@@ -2,8 +2,52 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	min-width: 768px;
 }
 
 body {
-	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+	width: 980px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #c3b69d, #ffffff) no-repeat;
+}
+
+#container {
+	padding-left: 200px;      	/* LC fullwidth */
+	padding-right: 150px;     	/* RC fullwidth + CC padding */
+	min-height: calc(100vh - 80px);	/* header + footer heiht */
+	overflow: hidden;			/* Equal-height Columns */
+}
+
+#container .column {
+	position: relative;
+	float: left;
+}
+
+header,
+footer {
+	height: 40px;
+	background: rgb(102,102,102);
+}
+
+main {
+	width: 100%;
+	background: rgb(214,214,214);
+}
+
+#sidebar-left {
+	width: 200px;             	/* LC width */
+	right: 200px;             	/* LC fullwidth + CC padding */
+	margin-left: -100%;
+	background: rgb(119,187,221);
+}
+
+#sidebar-right {
+	width: 150px;             	/* RC width */
+	margin-right: -100%;
+	background: rgb(255,102,51);
+}
+
+#container .column {
+	padding-bottom: 10000px;	/* Equal-height Columns */
+	margin-bottom: -10000px;	/* Equal-height Columns */
 }
