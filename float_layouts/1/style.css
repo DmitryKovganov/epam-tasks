@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+}
+
+.container {
+	width: 500px;
+	height: 350px;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background: #716558;
+}
+
+.container div {
+	line-height: 350px;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+}
