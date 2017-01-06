@@ -8,7 +8,7 @@ body {
 body {
 	width: 700px;
 	margin: 0 auto;
-	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+	background: linear-gradient(to bottom, #c3b69d, #ffffff) no-repeat;
 }
 
 header {
@@ -31,7 +31,7 @@ main {
 
 nav {
 	width: 200px;
-	height: 500px;
+	min-height: 500px;
 	position: absolute;
 	top: 0;
 	right: 0;

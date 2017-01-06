@@ -8,7 +8,7 @@ body {
 body {
 	width: 700px;
 	margin: 0 auto;
-	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+	background: linear-gradient(to bottom, #c3b69d, #ffffff) no-repeat;
 }
 
 header {
