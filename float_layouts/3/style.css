@@ -22,18 +22,16 @@ header {
 	position: relative;
 }
 
-.container .column {
+main {
+	width: 500px;
+	background: #29aae2;
 	padding-bottom: 10000px;
 	margin-bottom: -10000px;
 }
 
-main {
-	width: 500px;
-	background: #29aae2;
-}
-
 nav {
 	width: 200px;
+	height: 500px;
 	position: absolute;
 	top: 0;
 	right: 0;
