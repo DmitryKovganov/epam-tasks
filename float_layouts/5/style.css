@@ -5,5 +5,26 @@ html, body {
 }
 
 body {
-	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+	position: relative;
+	background: linear-gradient(to bottom, #c3b69d, #ffffff) no-repeat;
+}
+
+.container {
+	width: 500px;
+	min-height: 350px;
+	margin: 50px auto 150px;
+	top: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	background: #716558;
+}
+
+footer {
+	height: 100px;
+	width: 100%;
+	background: #8cc63f;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
