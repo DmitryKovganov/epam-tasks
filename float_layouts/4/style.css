@@ -1,9 +1,37 @@
-html, body {
+html,
+body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-body {
-	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+header {
+	height: 100px;
+	background: #716558;
+}
+
+.container {
+	min-height: calc(100vh - 200px);
+	overflow: hidden;
+}
+
+main {
+	width: 75%;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+	float: right;
+	background: #29aae2;
+}
+
+nav {
+	width: 25%;
+	min-height: 500px;
+	float: left;
+	background: #fbb040;
+}
+
+footer {
+	height: 100px;
+	clear: both;
+	background: #8cc63f;
 }
