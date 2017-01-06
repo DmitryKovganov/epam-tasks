@@ -1,9 +1,46 @@
-html, body {
+html,
+body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
 body {
+	width: 700px;
+	margin: 0 auto;
 	background: linear-gradient(to bottom, #c3b69d, #ffffff);
+}
+
+header {
+	height: 100px;
+	background: #716558;
+}
+
+.container {
+	min-height: calc(100vh - 200px);
+	overflow: hidden;
+	position: relative;
+}
+
+.container .column {
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+main {
+	width: 500px;
+	background: #29aae2;
+}
+
+nav {
+	width: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #fbb040;
+}
+
+footer {
+	height: 100px;
+	background: #8cc63f;
 }
