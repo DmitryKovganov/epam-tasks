@@ -6,3 +6,82 @@ html, body {
 body {
 	height: 100%;
 }
+
+header {
+	background: #ccc;
+	height: 100px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav {
+	background: #ccc;
+}
+
+nav ul {
+	background: #383838;
+	margin: 15px;
+	padding: 0;
+}
+
+nav li {
+	list-style: none;
+}
+
+nav a {
+	display: block;
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background: white;
+	color: #383838;
+	text-decoration: underline;
+}
+
+nav a:active {
+	background: white;
+	color: #383838;
+	text-decoration: none;
+}
+
+.navigation-horizontal ul {
+	padding: 2px 0 0;
+	margin: 0;
+}
+
+.navigation-horizontal li {
+	display: inline-block;
+}
+
+.container {
+	min-height: calc(100vh - 100px - 52px - 10px - 50px); /* header nav container.margin footer */
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.container nav {
+	float: left;
+	width: 25%;
+}
+
+main {
+	float: right;
+	width: 75%;
+}
+
+.container nav, main {
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+footer {
+	height: 50px;
+	background: #383838;
+}
