@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    font-family: 'Arial';
+    font-family: "Arial", "Helvetica", sans-serif;
 
     box-sizing: border-box;
     width: 796px;
@@ -96,7 +96,7 @@ nav a:active {
 
 .navigation-horizontal ul {
     margin: 0;
-    padding: 3px 0 2px;
+    padding: 1px 0 0;
 }
 
 .navigation-horizontal li {
@@ -104,16 +104,16 @@ nav a:active {
 }
 
 .navigation-horizontal a {
-    line-height: 25px;
+    line-height: 29px;
 
-    height: 25px;
-    padding: 0 5px 0 14px;
+    height: 29px;
+    padding: 0 4px 0 15px;
 }
 
 .container {
     overflow: hidden;
 
-    min-height: 487px;
+    min-height:  487px;
     margin-top: 10px;
 }
 
@@ -129,7 +129,7 @@ main {
     float: right;
 
     box-sizing: border-box;
-    width: calc(100% - 224px);
+    width: 572px;
     padding-left: 10px;
 }
 
