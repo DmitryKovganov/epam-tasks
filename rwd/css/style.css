@@ -30,13 +30,13 @@ header {
 }
 
 nav {
-    width: 20%;
+    width: 15%;
 
     background: #ebe9e3;
 }
 
 main {
-    width: 65%;
+    width: 75%;
 
     background: #e7e3d4;
 }
@@ -48,7 +48,7 @@ article {
 }
 
 aside {
-    width: 15%;
+    width: 10%;
 
     background: #f4f1ed;
 }
@@ -76,4 +76,56 @@ footer {
     float: left;
 
     margin: 0 15px 10px 0;
+}
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px) {
+        nav,
+        main,
+        aside {
+            width: 100%;
+        }
+
+        .container {
+            flex-direction: column;
+        }        
+
+}
+
+@media only screen 
+    and (min-device-width: 569px) 
+    and (max-device-width: 768px) {
+        nav,
+        main,
+        aside {
+            width: 100%;
+        }
+
+        .container {
+            flex-direction: column;
+        }
+
+}
+
+@media only screen 
+    and (min-device-width: 769px) 
+    and (max-device-width: 1024px) {
+        nav {
+            width: 180px;
+        }
+
+        main {
+            width: 100%;
+        }
+
+        aside {
+            width: 150px;
+        }        
+}
+
+@media only screen 
+    and (min-device-width: 1025px) 
+    and (max-device-width: 1439px) {
+
 }
